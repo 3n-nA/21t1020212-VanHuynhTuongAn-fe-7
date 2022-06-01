@@ -1,0 +1,33 @@
+* {
+    background-color: rgb(248, 196, 196);
+}
+.header
+{
+  margin: 0px;
+  text-align: center;
+  border: 1px white solid;
+  background-color: rgb(251, 212, 219) ;
+}
+h1,b
+{
+  background-color: rgb(251, 212, 219) ;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 0 8px;
+  margin-top: 10px;
+}
+
+/* Tạo bốn cột bằng nhau nằm cạnh nhau */
+.column {
+  
+  flex: 50%;
+  max-width: 23%;
+  padding: 0 8px;
+}
+.column img
+{
+  width: 100%;
+  margin:10px ;
+}
